@@ -8,7 +8,7 @@ p {
   wideth: 400px;
   background: rgb(255, 254, 235)
 
-  position: fixed;
+  position: center;
   top: 50%;
   left: 50%;
   margin-top: -100px;
