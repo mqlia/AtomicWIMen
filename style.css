@@ -1,0 +1,12 @@
+*specify paragraph/text/whatever you want this to apply to in the original code* {
+  color:white;
+  }
+
+** {
+  font-family: "Times New Roman";
+  background-color: pink
+}
+
+** {
+  background-color: rgb(86, 3, 252)
+}
