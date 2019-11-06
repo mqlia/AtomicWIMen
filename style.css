@@ -134,3 +134,7 @@ input[type=submit]:hover {
     border: 1px solid #ccc;
   }
 }
+
+img {
+  border-radius: 50%;
+}
