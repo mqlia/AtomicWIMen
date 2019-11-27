@@ -1,14 +1,14 @@
 .verdana {font-family: Verdana; }
 
 body {
-       background-color: rgb(255, 254, 235)
+       background-color: #CDCDCD
 }
 </* NOTE: the piece of code above has been used to change the overall background colour */
 
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color: #CDCDCD;
   overflow: hidden;
 }
 
@@ -16,7 +16,7 @@ body {
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -25,7 +25,7 @@ body {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #black;
   color: black;
 }
 
@@ -34,6 +34,8 @@ body {
   background-color: #4CAF50;
   color: white;
 }
+
+
 
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
@@ -116,4 +118,8 @@ margin-left: 35%;
 </font>
 <h1>
 
+
+
+</body>
+</html>
 ]>>>>>> 5776f2dbf12099c889eb51b13afd1803008bd3d8
