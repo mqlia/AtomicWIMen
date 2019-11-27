@@ -43,14 +43,14 @@ body {
 
 
 p {
-  height: 200px;
-  wideth: 400px;
+  height: 5px;
+  width: 5px;
   background: rgb(255, 254, 235)
 
   position: center;
-  top: 50%;
-  left: 50%;
-  margin-top: -100px;
+  top: 10%;
+  left: 10%;
+  margin-top: 3px;
   margin-left: 200px;
 
 }
@@ -60,10 +60,10 @@ p {
 p
 .center{
     position:absolute;
-    height: 200px;
-    width: 400px;
+    height: 10px;
+    width: 10px;
     left:50%;
-    top:50%;
+    top:20%;
     margin-top:- 200/2px;
     margin-left:- 400/2px;
 }
