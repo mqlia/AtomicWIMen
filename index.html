@@ -73,7 +73,7 @@
             <div class="container">
               <div style="text-align:center">
                 <h2>Contact Us</h2>
-                <p>Leave us a message:</p>
+                <h4>Leave us a message:</h4>
               </div>
               <div class="row">
                 <div class="column">
@@ -81,19 +81,29 @@
                 </div>
                 <div class="column">
                   <form action="/action_page.php">
+                    <div class="entry">
                     <label for="fname">First Name</label>
                     <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  </div>
+                  <div class="entry">
                     <label for="lname">Last Name</label>
                     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  </div>
+                  <div class="entry">
                     <label for="country">More about you</label>
                     <select id="country" name="country">
                       <option value="Option 1">I live in St Andrews</option>
                       <option value="Option 2">I am a visitor</option>
                       <option value="Option 3">I am a student</option>
                     </select>
+                  </div>
+                  <div class="entry">
                     <label for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="Tell us how we can help..." style="height:170px"></textarea>
+                    <textarea id="subject" name="subject" placeholder="Tell us how we can help..." style="height:25%"></textarea>
+                  </div>
+                  <div class="button">
                     <input type="submit" value="Submit">
+                  </div>
                   </form>
                 </div>
               </div>
