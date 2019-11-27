@@ -100,7 +100,7 @@ input[type=submit]:hover {
 /* Add a background color and some padding around the form */
 .container {
   border-radius: 5px;
-  background-color: orange;
+  background-color: pink;
   width: 25%;
   padding: 20px;
 }
@@ -113,7 +113,7 @@ input[type=submit]:hover {
 margin-left: 35%;
 }
 <h1>
-<font = 10>
+<font size= 5>
 </font>
 <h1>
 
