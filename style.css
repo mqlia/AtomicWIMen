@@ -13,7 +13,7 @@ body {
 .topnav a {
   float: left;
   display: block;
-  color: black;
+  color: #f2f2f2;
   text-align: center;
   /* padding: 14px 16px; */
   padding:2%;
@@ -39,15 +39,15 @@ body {
 }
 
 p {
-  height: 200px;
-  wideth: 400px;
+  height: 1px;
+  wideth: 1px;
   background: rgb(255, 254, 235)
 
   position: center;
-  top: 50%;
-  left: 50%;
-  margin-top:
-  margin-left: 200px;
+  top: 30%;
+  left: 30%;
+  margin-top: 5px;
+  margin-left: 300px;
 }
 </* NOTE: this is an attempt to change the position of the title on the screen... we would like to centre it, but at the moment it has just moved down for some reason */
 
@@ -60,7 +60,7 @@ p
     left:50%;
     top:50%;
     margin-top: 20/2px;
-    margin-left: 40/2px;
+    margin-left: 400/2px;
 }
 /* NOTE: second attempt at trying to center the title... it isn't working */
 </* /* NOTE: this is an attempt to change the layout of the Contact Me part */
