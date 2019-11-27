@@ -1,13 +1,8 @@
 body {
-       margin: 0;
-       padding: 0;
-       border: 0;
-       outline: 0;
-       font-size: 100%;
-       vertical-align: baseline;
        background-color: rgb(255, 254, 235)
 }
 </* NOTE: the piece of code above has been used to change the overall background colour */
+
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -21,8 +16,7 @@ body {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  /* padding: 14px 16px; */
-  padding:2%;
+  padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -44,20 +38,23 @@ body {
   display: none;
 }
 
+
+
 p {
-  height: 1px;
-  wideth: 1px;
+  height: 200px;
+  wideth: 400px;
   background: rgb(255, 254, 235)
 
   position: center;
-  top: 30%;
-  left: 30%;
-  margin-top: 5px;
-  margin-left: 300px;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: 200px;
+
 }
 </* NOTE: this is an attempt to change the position of the title on the screen... we would like to centre it, but at the moment it has just moved down for some reason */
 
-<<<<<<< HEAD
+
 p
 .center{
     position:absolute;
@@ -65,19 +62,19 @@ p
     width: 400px;
     left:50%;
     top:50%;
-    margin-top: 20/2px;
-    margin-left: 400/2px;
+    margin-top:- 200/2px;
+    margin-left:- 400/2px;
 }
 /* NOTE: second attempt at trying to center the title... it isn't working */
 </* /* NOTE: this is an attempt to change the layout of the Contact Me part */
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
   width: 100%; /* Full width */
-  padding: 8px; /* Some padding */
+  padding: 12px; /* Some padding */
   border: 1px solid #ccc; /* Gray border */
   border-radius: 4px; /* Rounded borders */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 2px; /* Add a top margin */
+  margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
@@ -100,7 +97,7 @@ input[type=submit]:hover {
 /* Add a background color and some padding around the form */
 .container {
   border-radius: 5px;
-  background-color: pink;
+  background-color: orange;
   width: 25%;
   padding: 20px;
 }
@@ -113,7 +110,7 @@ input[type=submit]:hover {
 margin-left: 35%;
 }
 <h1>
-<font size= 5>
+<font = 10>
 </font>
 <h1>
 
