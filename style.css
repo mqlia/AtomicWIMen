@@ -1,12 +1,11 @@
 body {
-       background-color: #CDCDCD
+
 }
 </* NOTE: the piece of code above has been used to change the overall background colour */
 
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #CDCDCD;
   overflow: hidden;
 }
 
