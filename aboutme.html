@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+<style>
+body {
+  background-color: #f1f1f1
+}
+</style>
   <p>
     <title>
     Welcome to St Andrews: About
@@ -15,7 +20,7 @@
     	<link href="http://fonts.googleapis.com/css?family=CormorantGaramond" rel="stylesheet" type="text/css" />
     </p>
 </head>
-<body bgcolor:#CDCDCD>
+<body>
 
   <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -25,7 +30,7 @@
   <a href="#home" class="active">Home</a>
   <a href="#news">News</a>
   <a href="#contact">Contact</a>
-  <a href="#aboutme.html">About</a>
+  <a href="aboutme.html">About</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
@@ -47,14 +52,21 @@
                   <div id="wishbone"> <span style= "font-family:Verdana"> Interested in finding out more about us? We are a team of three students participating in CodeFirst: Girls 2019. Whether you are a resident of St Andrews, a current (or future!) student, or are looking forward to visiting, we hope this website will allow you to find out more about this picturesque town on the east coast of Scotland. </span></div>
 
                   <h4> <span style= "font-family:Verdana"> Meet the team behind the website: </span></h4>
-                      <h5> <span style= "font-family:Verdana"> We are three 4th year University of St. Andrews students participating in the Code First Girls Courses </span></h5>
-                      <h5> <span style= "font-family:Verdana"> Together we are Wendy, Isabella, and Mariyah </span></h5>
+                      <p> <span style= "font-family:Verdana"> We are three 4th year University of St. Andrews students participating in the Code First Girls Courses </span></p>
+                      <p> <span style= "font-family:Verdana"> Together we are Wendy, Isabella, and Mariyah </span></p>
               </div>
 
             </div>
 
             <div id="top-right-block">
+            </div>
+                          </div>
 
+                        </div>
+
+                        <div id="top-right-block">
+
+              <title>Welcome to St Andrews</title>
 
 </head>
 </body>
@@ -63,35 +75,44 @@
 
             <!-- Contact Us part -->
 
-            <div class="container">
-              <div style="text-align:center">
-                <h2>Contact Us</h2>
-                <p>Leave us a message:</p>
-              </div>
-              <div class="row">
-                <div class="column">
-                  <img src="/w3images/map.jpg" style="width:100%">
-                </div>
-                <div class="column">
-                  <form action="/action_page.php">
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                    <label for="country">More about you</label>
-                    <select id="country" name="country">
-                      <option value="Option 1">I live in St Andrews</option>
-                      <option value="Option 2">I am a visitor</option>
-                      <option value="Option 3">I am a student</option>
-                    </select>
-                    <label for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="Tell us how we can help..." style="height:170px"></textarea>
-                    <input type="submit" value="Submit">
-                  </form>
-                </div>
-              </div>
-            </div>
-
+                        <div class="container">
+                          <div style="text-align:center">
+                            <h2>Contact Us</h2>
+                            <h4>Leave us a message:</h4>
+                          </div>
+                          <div class="row">
+                            <div class="column">
+                              <img src="/w3images/map.jpg" style="width:100%">
+                            </div>
+                            <div class="column">
+                              <form action="/action_page.php">
+                                <div class="entry">
+                                <label for="fname">First Name</label>
+                                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                              </div>
+                              <div class="entry">
+                                <label for="lname">Last Name</label>
+                                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                              </div>
+                              <div class="entry">
+                                <label for="country">More about you</label>
+                                <select id="country" name="country">
+                                  <option value="Option 1">I live in St Andrews</option>
+                                  <option value="Option 2">I am a visitor</option>
+                                  <option value="Option 3">I am a student</option>
+                                </select>
+                              </div>
+                              <div class="entry">
+                                <label for="subject">Subject</label>
+                                <textarea id="subject" name="subject" placeholder="Tell us how we can help..." style="height:25%"></textarea>
+                              </div>
+                              <div class="button">
+                                <input type="submit" value="Submit">
+                              </div>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
 
 <a href="aboutme.html">
 </html>
