@@ -4,10 +4,8 @@ body {
 }
 </* NOTE: the piece of code above has been used to change the overall background colour */
 
-
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #CDCDCD;
   overflow: hidden;
 }
 
@@ -34,22 +32,23 @@ body {
   color: white;
 }
 
+
+
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
   display: none;
 }
 
 
-
 p {
-  height: 200px;
-  width: 400px;
+  height: 100px;
+  width: 50px;
   background: rgb(255, 254, 235)
 
-  position: center;
+  position: right;
   top: 50%;
   left: 50%;
-  margin-top: -100px;
+  margin-top: -130px;
   margin-left: 200px;
 }
 </* NOTE: this is an attempt to change the position of the title on the screen... we would like to centre it, but at the moment it has just moved down for some reason */
