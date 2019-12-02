@@ -103,11 +103,16 @@ input[type=submit]:hover {
 }
 .entry {
   width: 100%;
-  margin-bottom: 10%;
+  margin-left: 70%;
+  width: 25%;
+  padding: 20px;
   /* background-color: purple; */
 }
 .button {
-margin-left: 35%;
+  width: 100%;
+  margin-left: 70%;
+  width: 25%;
+  padding: 20px;
 }
 
 /* {Note: this is for the portfolio gallery} */
