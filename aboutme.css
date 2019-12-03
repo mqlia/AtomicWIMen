@@ -4,10 +4,8 @@ body {
 }
 </* NOTE: the piece of code above has been used to change the overall background colour */
 
-
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #CDCDCD;
   overflow: hidden;
 }
 
@@ -34,27 +32,28 @@ body {
   color: white;
 }
 
+
+
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
   display: none;
 }
 
 
-
 p {
-  height: 200px;
-  width: 400px;
+  height: 100px;
+  width: 50px;
   background: rgb(255, 254, 235)
 
-  position: center;
+  position: right;
   top: 50%;
   left: 50%;
-  margin-top: -100px;
+  margin-top: -130px;
   margin-left: 200px;
 }
 </* NOTE: this is an attempt to change the position of the title on the screen... we would like to centre it, but at the moment it has just moved down for some reason */
 
-<<<<<<< HEAD
+
 p
 .center{
     position:absolute;
@@ -79,25 +78,67 @@ input[type=text], select, textarea {
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-/* Style the submit button with a specific background color etc */
-input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+/* Note: This is for the Meet the Team part */
+/* Three columns side by side */
+.column {
+  float: Center;
+  width: 50%;
+  margin-bottom: 50px;
+  padding: 10px;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-  background-color: #45a049;
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 50px) {
+  .column {
+    width: 20%;
+    display: block;
+  }
 }
 
-/* Add a background color and some padding around the form */
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
 .container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+  padding: 16px;
 }
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.entry {
+  width: 100%;
+  margin-bottom: 10%;
+  /* background-color: purple; */
+}
+.button {
+margin-left: 35%;
+}
+
 >>>>>>> 5776f2dbf12099c889eb51b13afd1803008bd3d8

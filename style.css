@@ -42,19 +42,18 @@ body {
 
 
 p {
-  height: 50px;
+  height: 100px;
   width: 50px;
   background: rgb(255, 254, 235)
 
-  position: center;
+  position: right;
   top: 50%;
   left: 50%;
-  margin-top: -100px;
+  margin-top: -130px;
   margin-left: 200px;
 
 }
 </* NOTE: this is an attempt to change the position of the title on the screen... we would like to centre it, but at the moment it has just moved down for some reason */
-
 
 p
 .center{
@@ -104,11 +103,16 @@ input[type=submit]:hover {
 }
 .entry {
   width: 100%;
-  margin-bottom: 10%;
+  margin-left: 70%;
+  width: 25%;
+  padding: 20px;
   /* background-color: purple; */
 }
 .button {
-margin-left: 35%;
+  width: 100%;
+  margin-left: 70%;
+  width: 25%;
+  padding: 20px;
 }
 
 /* {Note: this is for the portfolio gallery} */
@@ -180,8 +184,6 @@ h1 {
 <font = 10>
 </font>
 <h1>
-
-
 
 </body>
 </html>
